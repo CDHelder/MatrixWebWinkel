@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\MatrixWebWinkel.Data\MatrixWebWinkel.Data.csproj" />
     <ProjectReference Include="..\Client\MatrixWebWinkel.Client.csproj" />
     <ProjectReference Include="..\Shared\MatrixWebWinkel.Shared.csproj" />
   </ItemGroup>

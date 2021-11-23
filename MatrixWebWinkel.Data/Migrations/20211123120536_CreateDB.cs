@@ -1,9 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
-using System;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace MatrixWebWinkel.Server.Data.Migrations
+namespace MatrixWebWinkel.Data.Migrations
 {
-    public partial class CreateIdentitySchema : Migration
+    public partial class CreateDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
